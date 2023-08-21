@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-wrapper{
+    display: flex;
+    justify-self: flex-start;
+    /* background-color: red; */
+    overflow: hidden;
+    text-align: center;
+}
+.text-wrapper span{
+        height: 129px;
+        filter: blur(5px);
+        display: block;
+        background: white;
+        width: 40px;
+        position: absolute;
+        top: -5px;
+        left: -15px;
+}
+.text-wrapper #second {
+    height: 129px;
+    filter: blur(5px);
+    display: block;
+    background: white;
+    width: 44px;
+    position: absolute;
+    top: -5px;
+    left: 1322px;
+}
+.text-wrapper h1{
+    font-size: 100px;
+    text-transform: capitalize;
+    white-space: nowrap;
+    padding: 0;
+    letter-spacing: 1px;
+    animation: move-rtl 30000ms linear infinite;
+}
+@keyframes move-rtl {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
