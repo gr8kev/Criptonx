@@ -1,0 +1,1571 @@
+#navbar.activ {
+    right: 0;
+    z-index: 100000;
+}
+.text-wrapper span {
+    height: 129px;
+    filter: blur(5px);
+    display: none;
+}
+.text-wrapper #second {
+display: none;
+}
+#mobile{
+    display: none;
+}
+#close{
+    display: none;
+}
+
+@media (max-width: 1330px) {
+    .mas {
+      padding-left: 4%;
+      width: 95%;
+  }
+    .services-list div h2 {
+      font-size: 28px;
+    }
+  
+    .gri {
+      padding-left: 29px;
+  }
+    .rids {
+      width: 87%;
+    }
+  
+    .rids span {
+      width: 242px;
+      margin-left: -29px;
+    }
+  
+    .rids p {
+      width: 264px;
+    }
+    .lower {
+      width: 95%;
+      padding-left: 95px;
+  }
+  }
+  
+  @media (max-width: 1280px) {
+  
+    .services-list div h2 {
+      font-size: 23px;
+      font-weight: 500;
+    }
+  
+    .imag img {
+        margin-left: 4%;
+    }
+  
+    .aboutus p {
+      width: 97%;
+      font-size: 20px;
+    }
+  
+    .aboutp {
+      margin-left: 4%;
+    }
+    .testemonies {
+      padding: 0px 4%;
+      display: grid;
+  }
+  }
+  @media (max-width: 1200px) {
+    .imag img {
+        margin-left: 9%;
+    }
+  .gri {
+      padding-left: 0px;
+    }
+  
+  .mas {
+    padding-left: 3%;
+    width: 95%;
+  }
+  .lower ul {
+    width: 13%;
+}
+.buttons p {
+    margin-left: 30.9%;
+}
+#re {
+    margin-left: 35%;
+}
+.testemonies {
+    grid-gap: 66px;
+}
+  .gri {
+    grid-template-areas: "auto auto";
+    grid-row-gap: 19px;
+  }
+  .rids {
+      width: 66%;
+  }
+  .rids p {
+    margin-left: -10px;
+  }
+  .rids span {
+    width: 258px;
+    margin-left: -9px;
+  }
+  #video p {
+    margin-bottom: 12px;
+    width: 289px;
+    text-align: center;
+    font-size: 13px;
+    margin-left: -47px;
+  }
+  #video span {
+    width: 244px;
+    margin-left: -30px;
+  }
+  #video h4 {
+    font-size: 21px;
+    margin-left: 28px;
+  }
+  .gri {
+    margin-left: 14%;
+    width: 85%;}
+    #gr{
+        margin-left: 11%;
+        width: 85%;
+    }
+    .audiow .duct {
+        margin-left: -69px;
+        width: 228%;
+    }
+    #duc {
+        width: 199%;
+    }
+  }
+  @media (max-width: 1160px) {
+    .aboutus p {
+      width: 97%;
+      font-size: 16px;
+    }
+  
+    .aboutus video {
+      width: 510px;
+      height: 416px;
+    }
+  
+    .galleries {
+      padding-left: 32px;
+    }
+  
+  
+    .gallery img {
+      width: 340px;
+    }
+  
+    .testemonies {
+      grid-gap: 41px;
+    }
+    article {
+      margin-top: -35px;
+      /* color: red; */
+      width: 100%;
+  }
+  .imag img {
+      margin-left: 12%;
+  }
+  }
+  
+  @media (max-width: 1090px) {
+    .h3, h3 {
+        font-size: 44px;
+    }
+    .testemonies {
+      grid-gap: 2px;
+  }
+    .mas-image img {
+      width: 100%;
+  }
+  .gri {
+      margin-left: 9%;
+      width: 85%;
+  }
+  #gr {
+    margin-left: 5%;
+    width: 85%;
+  }
+  .rids {
+      width: 97%;
+  }
+    .rids span {
+      width: 351px;
+      margin-left: 1px;
+    }
+  #vid {
+      padding: 11px 0px;
+      margin-left: 6%;
+  }
+  .rids h4 {
+    margin-left: 95px;
+  }
+    .rids p {
+      font-size: 16px;
+      margin-left: -2px;
+      width: 358px;
+    }
+  
+  .rids {
+      padding: 23px 29px;
+      height: 98%;
+  }
+  .rids a{
+      margin-left: 30%;
+  }
+  #vid a {
+    margin-left: 3%;
+    width: 82%;
+}
+      .audiow .duct{
+        width: 152%;
+      }
+      .audiow #duc {
+        width: 171%;
+    }
+    .audiow .duct {
+      width: 188%;
+  }
+  #gold {
+      margin-top: -2%;
+      margin-left: 32%;
+  }
+  #silver {
+      margin-top: 6%;
+      margin-left: 29%;
+  }
+    #plus {
+      margin-left: 114px;
+    }
+  
+    .gri {
+      display: grid;
+      grid-template-areas: "auto auto";
+      align-items: center;
+      padding: 11px 31px;
+      grid-row-gap: 1%;
+    }
+  
+    .gallery img {
+      width: 83%;
+    }
+    .imag img {
+      margin-left: 6%;
+      width: 87%;
+      margin-top: 33%;
+  }
+  .text-wrapper h2 {
+    margin-left: 10%;
+  }
+  .header-right a {
+    padding: 9px;
+  }
+  #video {
+    padding: 24px 36px;
+  }
+  }
+  @media (max-width: 1000px) {
+    .text-wrapper p {
+        margin-left: 20%;
+    }
+    .back {
+      margin-left: 84%;
+  }
+  #aud {
+    margin-left: -77%;
+    width: 643px;
+  }
+    .aboutus p {
+      width: 118%;
+      font-size: 16px;
+  }
+  .aboutus video {
+    width: 450px;
+    height: 334px;
+  }
+  .buttons p {
+    margin-left: 30%;
+  }
+  .google {
+    margin-left: 33%;
+  }
+  #vid {
+    padding: 11px 0px;
+    margin-left: 3%;
+  }
+  .audiow #duc {
+    width: 158%;
+    margin-left: -11%;
+  }
+  
+  .gri {
+    margin-left: 2%;
+    width: 85%;
+  }
+  #video p {
+    width: 267px;
+    margin-left: -52px;
+  }
+  #video span {
+    width: 231px;
+    margin-left: -36px;
+  }
+  #captu{
+    margin-left: -108%;
+  }
+  .centered h3 {
+    font-size: 41px;
+    font-style: italic;
+    margin-left: -4%;
+  }
+  .audios {
+    margin-left: -57%;
+  }
+  .centered #ita {
+    margin-left: -31%;
+  }
+  #mo p {
+    margin: -8px 0px -1px -58%;
+  }
+  .memo {
+    width: 400px;
+    margin-left: -28%;
+  }
+  #clea {
+    margin-left: -55%;
+  }
+  #audis {
+    margin-left: -73%;
+  }
+  #video h4 {
+    font-size: 19px;
+  }
+  }
+  @media (max-width: 950px) {
+    .buttons p {
+      margin-left: 34%;
+  }
+  .buttons h2{
+    margin-left: 214px;
+  }
+  .cover {
+    width: 294px;
+    /* border: 2px solid red; */
+}
+  }
+  @media (max-width: 923px) {
+    .buttons p {
+        margin-left: 27%;
+    }
+    .customers h2 {
+        margin-left: 10%;
+    }
+    .cover {
+        width: 263px;
+        padding: 9px 15px;
+    }
+    .wor h1 {
+        margin-left: 56px;
+    }
+    .wor p {
+        margin-left: 54px;
+    }
+    .audiow #duc {
+      width: 154%;
+      margin-left: -11%;
+  }
+  .gri {
+    margin-left: 0%;
+    width: 85%;
+  }
+  .audiow .duct {
+    width: 152%;
+}
+  }
+  @media (max-width: 922px) {
+
+    #vid .duct {
+      width: 167%;
+  }
+.audiow #duc {
+  width: 146%;
+  margin-left: 2%;
+}
+    .header-right a {
+      padding: 6px;
+  }
+  .header-right {
+    padding-left: 6px;
+  }
+    #video {
+      padding: 25px 38px;
+  }
+  #video h4 {
+    margin-left: 19px;
+  }
+  .rids {
+    padding: 23px 23px;
+    height: 98%;
+  }
+  
+  }
+  @media (max-width: 884px) {
+    .cover img {
+        margin-top: -5px;
+        margin-right: -32px;
+    }
+    .rev {
+        margin-left: 27%;
+    }
+    .gri {
+      margin-left: 7%;
+      width: 85%;
+  }
+  .rids h4 {
+    margin-left: 70px;
+  }
+    #video {
+      padding: 25px 33px;
+  }
+  #video p {
+    width: 258px;
+    font-size: 11px;
+  }
+  .rids p {
+    font-size: 15px;
+    margin-left: -15px;
+    width: 301px;
+  }
+  .rids p {
+    font-size: 15px;
+    margin-left: -15px;
+    width: 301px;
+  }
+  .rids span {
+    width: 291px;
+    margin-left: -9px;
+  }
+  #video span {
+    width: 204px;
+    margin-left: -26px;
+  }
+  .audiow .duct {
+    width: 184%;
+  }
+  .audiow #duc {
+    width: 152%;
+  }
+  #mobile {
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    margin-left: 34px;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+    justify-content: space-between;
+    width: 45px;
+  }
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: -20px;
+    right: -306px;
+    height: 100vh;
+    width: 306px;
+    background-color: black;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 70px 0 0 10px;
+    transition: 0.3s;
+    z-index: 100;
+}
+  .logo img {
+    margin-left: 102px;
+  }
+  #close {
+    display: block;
+  }
+  
+  #navbar li {
+    margin-bottom: 23px;
+  }
+  #close i {
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #9a0000;
+  font-size: 24px;
+  }
+  .header-right {
+    float: right;
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .header-right a {
+    padding: 6px;
+    text-align: left;
+  }
+  .text-wrapper h2 {
+    margin-left: 17%;
+    font-size: 27px;
+  }
+  .about {
+    padding: 58px 0px;
+  }
+  .aboutus p {
+    width: 95%;
+    font-size: 14px;
+}
+  .services-list div {
+    padding: 8px;
+    font-size: 9px;
+  }
+  .imag {
+    margin-left: -34px;
+}
+  .services-list {
+    display: grid;
+    grid-gap: 0px;
+    grid-row-gap: 12px;
+    margin-top: 50px;
+    width: 91%;
+    grid-template-areas: "auto auto";
+  }
+  .services-list {
+    grid-template-columns: none;
+  }
+  .wor h3 {
+    width: 395px;
+    font-size: 17px;
+    margin-left: 16px;
+  }
+  .wor article {
+    margin-left: 27px;
+    margin-top: 6px;
+    font-size: 18px;
+  }
+  .wor p {
+    margin-left: 31px;
+    font-size: 20px;
+  }
+  .wor h1 {
+    margin-left: 20px;
+  }
+  .testemonies {
+    grid-template-areas: "auto";
+    width: 46%;
+    margin-left: 28%;
+  }
+  .tes p {
+    margin-left: -1%;
+}
+  #bella {
+    height: 111%;
+    gap: 104px;
+}
+  .buttons p {
+    margin-left: 27%;
+  }
+  .cover h3 {
+    margin-left: 34px;
+}
+footer .p {
+    margin-left: 28%;
+}
+#logo {
+    width: 12%;
+    margin-left: -220px;
+}
+.aboutus video {
+    width: 383px;
+    margin-left: 22px;
+    height: 274px;
+}
+}
+@media (max-width: 784px) {
+  #video p {
+    width: 228px;
+    font-size: 11px;
+}
+#video span {
+  width: 176px;
+  margin-left: -26px;
+}
+#vid a {
+  margin-left: 3%;
+  width: 91%;
+}
+.audiow #duc {
+  width: 146%;
+}
+.gri {
+  margin-left: 3%;
+  width: 85%;
+}
+    .text-wrapper p {
+        font-size: 31px;
+        margin-left: 11%;
+        line-height: 1;
+    }
+    .imag img {
+        margin-left: 0%;
+        width: 97%;
+        margin-top: 33%;
+        height: 320px;
+    }
+    .customers h2 {
+        margin-left: 21%;
+    }
+    #re {
+        margin-left: 72%;
+    }
+    .lower .call {
+        margin-right: 83px;
+    }
+    #aud {
+        margin-left: -106%;
+        width: 643px;
+    }
+    #captu {
+        margin-left: -138%;
+    }
+    #clea {
+        margin-left: -72%;
+    }
+    .audios {
+        margin-left: -80%;
+    }
+    #audis {
+        margin-left: -102%;
+    }
+    #mo h3 {
+        font-size: 39px;
+        font-style: italic;
+        margin-left: -4%;
+        width: 111%;
+    }
+    article {
+        margin-left: -117px;
+        margin-top: -35px;
+        /* color: red; */
+        width: 243%;
+    }
+    .aboutus p {
+        width: 95%;
+        font-size: 10px;
+    }
+    .wor p {
+        margin-left: 31px;
+        font-size: 17px;
+    }
+    .services-list div {
+        margin-left: 37px;
+        width: 209px;
+    }
+    .social {
+        width: 14%;
+        margin-left: 27px;
+    }
+    .aboutp {
+        margin-left: 8%;
+    }
+    .memo {
+        margin-left: -42%;
+    }
+    .memo {
+        width: 400px;
+        margin-left: -42%;
+    }
+    #mo p {
+        margin: -8px 0px -1px -78%;
+    }
+    .customers a {
+      margin-left: 46%;
+      width: 304%;
+  }
+
+}
+@media (max-width: 730px) {
+  .audiow #duc {
+    width: 144%;
+}
+#video h4 {
+  font-size: 17px;
+}
+#video p {
+width: 211px;
+font-size: 11px;
+}
+#video span {
+  width: 164px;
+  margin-left: -26px;
+}
+.rids {
+  width: 89%;
+}
+.rids span {
+  width: 270px;
+  margin-left: -9px;
+}
+.rids p {
+  font-size: 15px;
+  margin-left: -28px;
+  width: 301px;
+}
+}
+@media (max-width: 670px) {
+  #vid {
+    grid-template-areas: "auto";
+    width: 43%;
+    margin-left: 29%;
+    align-items: center;
+}
+#video {
+  padding: 25px 74px;
+}
+#video h4 {
+  margin: 0;
+  font-size: 19px;
+}
+#video p {
+  width: 217px;
+  font-size: 16px;
+  margin-left: -49px;
+}
+#video span {
+  width: 238px;
+  margin-left: -60px;
+}
+#vid a {
+  margin-left: 1%;
+  width: 102%;
+}
+#vid .duct {
+  width: 190%;
+  margin-left: -121px;
+}
+.grid-item h2 {
+  margin-left: -18px;
+  margin-top: 41px;
+}
+.rids p {
+  font-size: 14px;
+  margin-left: -27px;
+  width: 276px;
+}
+.rids span {
+  width: 235px;
+}
+.rids h4 {
+  margin-left: 56px;
+}
+.gri {
+  width: 60%;
+  grid-template-areas: "auto";
+  margin-left: 23%;
+}
+.grid-item h2 {
+  margin-top: 69px;
+}
+#plus {
+  margin-left: 66px;
+}
+    #mo p {
+        margin: -8px 0px -1px -98%;
+        font-size: 42px;
+    }
+    #mo h3 {
+        font-size: 30px;
+    }
+    #clea {
+        margin-left: -85%;
+        font-size: 33px;
+    }
+    #audis {
+        margin-left: -123%;
+        font-size: 53px;
+    }
+    .memo {
+        margin-left: -64%;
+    }
+    .audios {
+        margin-left: -110%;
+        font-size: 53px;
+    }
+    .centered #ita {
+        margin-left: -59%;
+    }
+    #aud {
+        font-size: 48px;
+        margin-left: -137%;
+        width: 643px;
+    }
+    #captu {
+        margin-left: -177%;
+        font-size: 30px;
+    }
+    article {
+        margin-left: -101px;
+    }
+}
+@media (max-width: 600px) {
+  #diamond {
+    margin-top: 9px;
+    width: 113px;
+    margin-left: 50px;
+}
+#gold {
+  margin-top: 9px;
+  width: 113px;
+  margin-left: 50px;
+}
+#silver {
+  margin-top: 9px;
+  width: 113px;
+  margin-left: 50px;
+}
+.rids a {
+  margin-top: 9px;
+  width: 113px;
+  margin-left: 50px;
+}
+#vid .duct {
+  width: 212%;
+  margin-left: -121px;
+}
+.gri {
+  width: 60%;
+  grid-template-areas: "auto";
+  margin-left: 15%;
+}
+#vid {
+  margin-left: 24%;
+}
+    .centered {
+        top: 43%;
+        left: 46%;
+    }.text-wrapper p {
+      font-size: 27px;
+      margin-left: 11%;
+      line-height: 1;
+  }
+    article {
+        margin-left: -66px;
+    }
+    .mylink {
+      margin-left: 30%;
+      font-size: 13px;
+      width: 88%;
+  }
+    .aboutus {
+        display: block;
+        width: 100%;
+    }
+    .aboutus p {
+        text-align: center;
+        width: 95%;
+        font-size: 13px;
+    }
+    .aboutp h3 {
+        font-size: 32px;
+        text-align: center;
+        margin-left: -74px;
+    }
+    #red {
+      margin-top: 33px;
+      margin-left: 31%;
+      width: 24%;
+  }.testemonies {
+    grid-template-areas: "auto";
+    width: 46%;
+    margin-left: 19%;
+}
+#li .mylink {
+  margin-left: 0;
+  width: 62%;
+}
+    #re .mylink{
+      width: 85px;
+    }
+    .buttons p {
+      margin-left: 15%;
+  }
+  #re {
+    margin-left: -27%;
+}
+.lower {
+  width: 95%;
+  padding-left: 48px;
+}
+.lower ul {
+  width: 33%;
+}
+.logo img {
+  margin-left: 69px;
+}
+.rev {
+  margin-left: 17%;
+  margin-bottom: -13%;
+}
+.services-list div {
+  margin-left: 23px;
+}
+footer .p {
+  margin-left: 14%;
+}
+.back {
+  margin-left: 80%;
+}
+    .wor p {
+        margin-left: 31px;
+        font-size: 15px;
+        width: 112%;
+    }
+    .wor h1 {
+        font-size: 27px;
+        margin-left: 25px;
+    }
+    .imag img {
+      margin-left: 17%;
+      width: 85%;
+      margin-top: 5%;
+      height: 174px;
+  }
+  .studios {
+    height: 226px;
+}
+#lin {
+  background-color: #FFF;
+  color: black;
+  width: 29%;
+  margin-left: 35%;
+  margin-bottom: 3%;
+  font-size: 12px;
+}
+.social {
+  width: 17%;
+  margin-left: 8px;
+}
+.centered h3 {
+  font-size: 39px;
+  font-style: italic;
+  margin-left: -4%;
+}
+}
+@media (max-width: 512px) {
+  .mylink {
+    margin-left: 30%;
+    font-size: 11px;
+    width: 84%;
+}
+.gri {
+  margin-left: 19%;
+}
+.audios {
+  margin-left: -138%;
+  font-size: 48px;
+}
+.memo {
+  margin-left: -75%;
+}
+article {
+  margin-left: -54px;
+}
+.mylink {
+  margin-left: 35%;
+  font-size: 11px;
+  width: 84%;
+}
+#mo h3 {
+  font-size: 27px;
+  margin-left: 14%;
+}
+#mo p {
+  margin: -8px 0px -1px -130%;
+  font-size: 40px;
+}
+.centered #ita {
+  margin-left: -77%;
+  font-size: 31px;
+}
+#aud {
+  font-size: 42px;
+  margin-left: -180%;
+}
+#clea {
+  margin-left: -131%;
+  font-size: 32px;
+}
+#audis {
+  margin-left: -172%;
+  font-size: 42px;
+}
+.centered h3 {
+  font-size: 25px;
+  font-style: italic;
+  margin-left: 23%;
+}
+#captu {
+  margin-left: -234%;
+  font-size: 28px;
+}
+}
+@media (max-width: 480px) {
+  #video h4 {
+    width: 110%;
+    margin: 0px;
+    font-size: 21px;
+}
+  #video h4 {
+    margin: 14px;
+    font-size: 19px;
+}
+#vid .duct {
+  width: 209%;
+  margin-left: -96px;
+}
+#diamond {
+  margin-left: 50px;
+}
+#gold {
+  margin-left: 24%;
+}
+#silver {
+  margin-left: 24%;
+}
+  .back {
+    margin-left: 76%;
+}
+.buttons p {
+  margin-left: 5%;
+}
+.lower p {
+  margin: 0;
+}
+.lower .call {
+  margin-right: 8px;
+}
+.wor p {
+  margin-left: 31px;
+  font-size: 12px;
+  width: 93%;
+}
+#li {
+  margin-left: -6%;
+  width: 93%;
+}
+.social {
+  width: 20%;
+}
+#captu {
+  margin-left: -269%;
+  font-size: 26px;
+}
+.audios {
+  margin-left: -170%;
+  font-size: 42px;
+}
+.centered h3 {
+  font-size: 23px;
+}
+#aud {
+  font-size: 36px;
+  margin-left: -211%;
+}
+.centered #ita {
+  margin-left: -84%;
+  font-size: 30px;
+}
+#audis {
+  margin-left: -197%;
+  font-size: 41px;
+}
+.memo {
+  margin-left: -106%;
+}
+#mo p {
+  margin: -10px 0px -1px -156%;
+  font-size: 31px;
+}
+article {
+  margin-left: -55px;
+  font-size: 11px;
+}
+#mo h3 {
+  font-size: 25px;
+  margin-left: 14%;
+}
+.mylink {
+  margin-left: 35%;
+  font-size: 9px;
+  width: 90%;
+}
+.gri {
+  margin-left: 11%;
+}
+#vid {
+  margin-left: 19%;
+}
+#vid .duct {
+  margin-left: -61px;
+}
+footer span {
+  margin-left: 19px;
+}
+.lower {
+  padding-left: 19px;
+}
+.text-wrapper p {
+  font-size: 26px;
+  margin-left: 1%;
+  text-align: left;
+}
+.galleries {
+  width: 92%;
+  gap: 1px;
+  padding: 10px;
+  padding-left: 29px;
+}
+#lin {
+  font-size: 11px;
+}
+.rev {
+  margin-left: 8%;
+}
+.testemonies {
+  margin-left: 13%;
+}
+footer .p {
+  margin-left: 11%;
+}
+.customers h2 {
+  margin-left: 24%;
+}
+}
+@media (max-width: 420px) {
+  #mo p {
+    margin: -10px 0px -1px -171%;
+    font-size: 29px;
+}
+.audios {
+  margin-left: -188%;
+  font-size: 40px;
+}
+#audis {
+  margin-left: -223%;
+  font-size: 37px;
+}
+.centered #ita {
+  margin-left: -99%;
+  font-size: 30px;
+}
+.memo {
+  margin-left: -114%;
+}
+.centered h3 {
+  font-size: 20px;
+}
+#clea {
+  margin-left: -167%;
+  font-size: 32px;
+}
+.mylink {
+  margin-left: 22%;
+  font-size: 9px;
+  width: 99%;
+}
+#aud {
+  font-size: 34px;
+  margin-left: -241%;
+}
+#captu {
+  margin-left: -311%;
+  font-size: 26px;
+}
+#mo h3 {
+  font-size: 20px;
+  margin-left: 14%;
+}
+.services-list div {
+  margin-left: 37px;
+  width: 180px;
+}
+.services-list div h2 {
+  font-size: 21px;
+}
+#li .mylink {
+  width: 64%;
+}
+#li {
+  margin-left: -10%;
+  width: 93%;
+}
+.wor p {
+  margin-left: 16px;
+  font-size: 10px;
+  width: 93%;
+}
+.wor h1 {
+  font-size: 24px;
+  margin-left: 12px;
+}
+.gallery img {
+  width: 101%;
+}
+#lin {
+  width: 31%;
+  font-size: 9px;
+}
+.lower p {
+  font-size: 12px;
+}
+.galleries {
+  gap: 10px;
+}
+.testemonies {
+  margin-left: 6%;
+}
+.rev {
+  margin-left: 2%;
+}
+.lower ul {
+  width: 45%;
+}
+footer .p {
+  margin-left: 6%;
+}
+.customers h2 {
+  margin-left: 36%;
+}
+#re {
+  margin-left: -27%;
+  width: 361%;
+}
+.text-wrapper p {
+  font-size: 22px;
+  margin-left: 5%;
+  text-align: left;
+}
+.aboutus video {
+  width: 91%;
+  margin-left: 22px;
+  height: 274px;
+}
+}
+@media (max-width:390px) {
+  .customers h2 {
+    margin-left: 30%;
+}
+.buttons p {
+  margin-left: 0%;
+}
+.google {
+  margin-left: 30%;
+}
+#re {
+  margin-left: -27%;
+  width: 378%;
+}
+.lower {
+  width: 95%;
+  padding-left: 9px;
+}
+footer span {
+  margin-left: 18px;
+}
+footer .p {
+  margin-left: 0%;
+}
+.back {
+  margin-left: 68%;
+}
+.audios {
+  margin-left: -213%;
+  font-size: 37px;
+}
+#clea {
+  margin-left: -198%;
+  font-size: 32px;
+}
+#aud {
+  font-size: 26px;
+  margin-left: -265%;
+}
+#captu {
+  margin-left: -342%;
+  font-size: 24px;
+}
+.centered #ita {
+  margin-left: -124%;
+  font-size: 30px;
+}
+.centered h3 {
+  font-size: 18px;
+}
+article {
+  margin-left: -55px;
+  font-size: 9px;
+}
+#audis {
+  margin-left: -252%;
+  font-size: 25px;
+}
+.memo {
+  margin-left: -133%;
+  font-size: 31px;
+}
+#mo p {
+  margin: -10px 0px -1px -194%;
+  font-size: 29px;
+}.social {
+  width: 27%;
+}
+.text-wrapper p {
+  font-size: 20px;
+  margin-left: 5%;
+  text-align: left;
+}
+.aboutus video {
+  width: 86%;
+}
+#red {
+  width: 27%;
+}
+
+}
+@media (max-width: 380px) {
+  .mylink {
+    margin-left: 19%;
+    font-size: 8px;
+    width: 99%;
+}
+article {
+  margin-left: -42px;
+  font-size: 9px;
+}
+.centered #ita {
+  margin-left: -119%;
+  font-size: 30px;
+}
+#mo p {
+  margin: -10px 0px -1px -205%;
+  font-size: 29px;
+}
+.memo {
+  margin-left: -136%;
+  font-size: 31px;
+}
+.aboutus p {
+  width: 108%;
+}
+.aboutp h3 {
+  margin-left: -36px;
+}
+.services-list {
+  grid-template-areas: "auto";
+}
+#li {
+  margin-left: 17%;
+  width: 67%;
+}
+.inner {
+  flex-direction: column;
+}
+.imag {
+  padding-top: 12px;
+  margin-left: -44px;
+  width: 62%;
+}
+.studios {
+  height: 325px;
+}
+.testemonies {
+  margin-left: 6%;
+}
+#lin {
+  width: 33%;
+  font-size: 9px;
+}
+footer .p {
+  margin-left: -1%;
+}
+footer .p {
+  font-size: 11px;
+  width: 314px;
+}
+.lower .call {
+  margin-right: 10px;
+}
+.lower p {
+  margin: 0;
+}
+.buttons p {
+  margin-left: -9%;
+}
+.rev {
+  margin-left: -2%;
+}
+#re {
+  margin-left: -27%;
+  width: 514%;
+}
+.customers a {
+  font-size: 10px;
+  margin-left: 46%;
+  width: 490%;
+}
+}
+@media (max-width: 360px) {
+  .testemonies {
+    margin-left: -1%;
+}
+.rev {
+  margin-left: -9%;
+}
+.services-list div {
+  margin-left: 14px;
+  width: 180px;
+}
+.social {
+  margin-right: 0;
+  margin-left: 65px;
+}
+.centered #ita {
+  margin-left: -167%;
+  font-size: 29px;
+}
+.audios {
+  margin-left: -278%;
+  font-size: 37px;
+}
+.centered h3 {
+  font-size: 17px;
+}
+.mylink {
+  margin-left: 12%;
+  width: 115%;
+}
+.text-wrapper p {
+  font-size: 17px;
+  margin-left: 5%;
+  text-align: left;
+}
+.about {
+  padding: 6px 0px;
+}
+#red {
+  width: 32%;
+}
+.customers h2 {
+  margin-left: 30%;
+  width: 40%;
+}
+.google {
+  margin-left: 25%;
+}
+.tes p {
+  margin-left: -2%;
+  font-size: 13px;
+}
+.audios {
+  margin-left: -254%;
+  font-size: 37px;
+}
+#captu {
+  margin-left: -360%;
+  font-size: 24px;
+}
+}
+@media (max-width: 350px) {
+  #captu {
+    margin-left: -365%;
+    font-size: 24px;
+}
+.memo {
+  margin-left: -161%;
+  font-size: 31px;
+}
+#clea {
+  margin-left: -217%;
+  font-size: 32px;
+}
+#audis {
+  margin-left: -275%;
+  font-size: 25px;
+}
+}
+@media (max-width: 340px) {
+  #clea {
+    margin-left: -240%;
+    font-size: 32px;
+}
+  #audis {
+    margin-left: -299%;
+    font-size: 25px;
+}
+  #captu {
+    margin-left: -403%;
+    font-size: 22px;
+}
+#mo p {
+  margin: -10px 0px -1px -242%;
+  font-size: 29px;
+}
+#aud {
+  font-size: 26px;
+  margin-left: -316%;
+}
+}
+@media (max-width: 320px) {
+  .rev {
+    margin-left: -9%;
+    width: 110%;
+}
+#lin {
+  width: 38%;
+  font-size: 9px;
+}
+.tes p {
+  width: 93%;
+  margin-left: 11%;
+  font-size: 13px;
+}
+#mo p {
+  margin: -10px 0px -1px -244%;
+  font-size: 29px;
+}
+.memo {
+  margin-left: -175%;
+  font-size: 31px;
+}
+#audis {
+  margin-left: -307%;
+  font-size: 25px;
+}
+#clea {
+  margin-left: -243%;
+  font-size: 32px;
+}
+#aud {
+  font-size: 26px;
+  margin-left: -333%;
+}
+.buttons p {
+  margin-left: 2%;
+  width: 98%;
+}
+.rev {
+  margin-left: -2%;
+  width: 101%;
+}
+}

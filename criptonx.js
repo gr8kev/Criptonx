@@ -21,3 +21,20 @@ scrollBottom.forEach((el)=>observer.observe(el));
 const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((el)=>observer.observe(el));
 
+const bar = document.getElementById('bar')
+const nav = document.getElementById('navbar')
+const close = document.getElementById('close')
+
+
+if (bar) {
+  bar.addEventListener('click', () => {
+    nav.classList.add('activ')
+
+})
+}
+if (close) {
+  close.addEventListener('click', () => {
+    nav.classList.remove('activ')
+
+})
+}

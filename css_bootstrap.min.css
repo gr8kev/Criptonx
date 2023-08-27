@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 html {
     font-family: 'Roboto', sans-serif
 }
@@ -1461,7 +1462,7 @@ img {
     border: 1px solid #ddd;
     border-radius: 4px;
     -webkit-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
+    -o-transition: all .3s ease-in-out;
     transition: all .2s ease-in-out;
     display: inline-block;
     max-width: 100%;
@@ -1551,10 +1552,16 @@ h6 small {
     color: #777
 }
 
-.h1, .h2, .h3, h1, h2, h3 {
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
     margin-top: 20px;
     margin-bottom: 0px;
 }
+
 .h1 .small,
 .h1 small,
 .h2 .small,
@@ -1604,9 +1611,12 @@ h1 {
 h2 {
     font-size: 30px
 }
-.h3, h3 {
+
+.h3,
+h3 {
     font-size: 48px;
 }
+
 .h4,
 h4 {
     font-size: 18px
@@ -1991,11 +2001,11 @@ pre code {
 
 
 @media (min-width:1200px) {
-.container {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 .container-fluid {
@@ -8029,6 +8039,7 @@ button.close {
 .visible-xs-inline-block {
     display: none !important
 }
+
 p {
     width: 377px;
     margin: 0 0 -1px;
@@ -8036,6 +8047,7 @@ p {
     font-size: 40px;
     margin-left: -29px;
 }
+
 @media (max-width:767px) {
     .visible-xs {
         display: block !important
