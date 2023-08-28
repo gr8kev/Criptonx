@@ -17,7 +17,54 @@ display: none;
     display: none;
 }
 
+@media (min-width: 1330px) {
+  .mas {
+    gap: 13px;
+    padding-left: 214px;
+    margin-top: 54px;
+    display: grid;
+    grid-template-areas: "auto auto auto";
+    width: 1520px;
+}
+  .rids {
+    width: 74%;
+}
+#video {
+  width: 62%;
+}
+.rids p {
+  margin-bottom: 12px;
+  width: 273px;
+  font-family: roboto;
+  text-align: center;
+  font-size: 18px;
+  margin-left: -25px;
+}
+.rids span {
+  display: block;
+  width: 266px;
+  height: 2px;
+  background: black;
+  margin-bottom: 22px;
+  margin-left: -24px;
+}
+.rids h4 {
+  font-size: 23px;
+  margin-left: 34px;
+}
+.rids a {
+  margin-left: 30%;
+}
+.audiow .duct {
+  width: 220%;
+}
+#duc {
+  width: 200%;
+  font-family: Roboto;
+}
+}
 @media (max-width: 1330px) {
+
     .mas {
       padding-left: 4%;
       width: 95%;
@@ -140,6 +187,9 @@ display: none;
     }
   }
   @media (max-width: 1160px) {
+    #sdo {
+      margin-top: -229px;
+  }
     .aboutus p {
       width: 97%;
       font-size: 16px;
@@ -149,7 +199,13 @@ display: none;
       width: 510px;
       height: 416px;
     }
-  
+    #sdj {
+      margin-top: -130px;
+  }
+  #sdj img{
+    height: 279px;
+  }
+
     .galleries {
       padding-left: 32px;
     }
@@ -173,6 +229,13 @@ display: none;
   }
   
   @media (max-width: 1090px) {
+    #move {
+      margin-top: -176px;
+  }
+  #ment {
+    margin-top: -254px;
+    margin-bottom: 66%;
+}
     .h3, h3 {
         font-size: 44px;
     }
@@ -329,8 +392,8 @@ display: none;
     margin-left: -31%;
   }
   #mo p {
-    margin: -8px 0px -1px -58%;
-  }
+    margin: -8px 0px -1px 2%;
+}
   .memo {
     width: 400px;
     margin-left: -28%;
@@ -344,8 +407,14 @@ display: none;
   #video h4 {
     font-size: 19px;
   }
+
   }
   @media (max-width: 950px) {
+    #move {
+      margin-top: -157px;
+      /* display: none; */
+      margin-bottom: 118%;
+  }
     .buttons p {
       margin-left: 34%;
   }
@@ -387,6 +456,10 @@ display: none;
 }
   }
   @media (max-width: 922px) {
+    .item img {
+      width: 100%;
+      height: 40em;
+    }
 
     #vid .duct {
       width: 167%;
@@ -417,7 +490,11 @@ display: none;
     .cover img {
         margin-top: -5px;
         margin-right: -32px;
-    }
+    }.rids a{
+      margin-left: 20%;
+      font-size: 9px;
+      width: 60%;
+  }
     .rev {
         margin-left: 27%;
     }
@@ -593,6 +670,40 @@ footer .p {
 }
 }
 @media (max-width: 784px) {
+  #ment {
+    margin-top: -226px;
+    margin-bottom: 66%;
+}
+  #ima7 {
+    margin-top: -405px;
+}
+#age4 {
+  margin-top: -160px;
+}
+#ga9 {
+  margin-top: -28px;
+}
+#im6 {
+  margin-top: -157px;
+}
+#move {
+  margin-top: -57%;
+  /* display: none; */
+  margin-bottom: 82%;
+}
+#ment {
+  margin-top: -138px;
+  margin-bottom: 66%;
+}
+#sdo {
+  margin-top: -199px;
+}
+#ga9 {
+  margin-top: -99px;
+}
+#rea {
+  margin-top: -294px;
+}
   #video p {
     width: 228px;
     font-size: 11px;
@@ -686,9 +797,7 @@ footer .p {
         width: 400px;
         margin-left: -42%;
     }
-    #mo p {
-        margin: -8px 0px -1px -78%;
-    }
+
     .customers a {
       margin-left: 46%;
       width: 304%;
@@ -781,12 +890,11 @@ font-size: 11px;
   margin-left: 66px;
 }
     #mo p {
-        margin: -8px 0px -1px -98%;
         font-size: 42px;
     }
     #mo h3 {
-        font-size: 30px;
-    }
+      font-size: 27px;
+  }
     #clea {
         margin-left: -85%;
         font-size: 33px;
@@ -818,7 +926,7 @@ font-size: 11px;
         margin-left: -101px;
     }
 }
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   #diamond {
     margin-top: 9px;
     width: 113px;
@@ -867,10 +975,7 @@ font-size: 11px;
       font-size: 13px;
       width: 88%;
   }
-    .aboutus {
-        display: block;
-        width: 100%;
-    }
+
     .aboutus p {
         text-align: center;
         width: 95%;
@@ -935,34 +1040,79 @@ footer .p {
         font-size: 27px;
         margin-left: 25px;
     }
-    .imag img {
-      margin-left: 17%;
-      width: 85%;
-      margin-top: 5%;
-      height: 174px;
+
+
+
+} */
+@media (max-width: 600px) {
+  .lower ul {
+    width: 13%;
+    display: none;
+}
+#im6 {
+  margin-top: -123px;
+}
+  .imag img {
+    margin-left: 17%;
+    width: 85%;
+    margin-top: 5%;
+    height: 174px;
+}
+#veme {
+  margin-top: -208px;
+}
+#sdg {
+  /* display: none; */
+  margin-top: -6px;
+  margin-bottom: 79%;
+}
+#ima7 {
+  margin-top: -405px;
+  display: none;
+}
+  .aboutus p {
+    text-align: center;
+    width: 95%;
+    font-size: 13px;
+}
+.aboutp h3 {
+    font-size: 32px;
+    text-align: center;
+    margin-left: -74px;
+}
+#red {
+  margin-top: 33px;
+  margin-left: 31%;
+  width: 24%;
+}.testemonies {
+grid-template-areas: "auto";
+width: 46%;
+}
+#li .mylink {
+margin-left: 0;
+width: 62%;
+}
+#re .mylink{
+  width: 85px;
+}
+.buttons p {
+  margin-left: 15%;
+}
+#re {
+margin-left: -27%;
+}
+  .social {
+    width: 17%;
+    margin-left: 8px;
   }
   .studios {
     height: 226px;
 }
-#lin {
-  background-color: #FFF;
-  color: black;
-  width: 29%;
-  margin-left: 35%;
-  margin-bottom: 3%;
-  font-size: 12px;
+
+  .aboutus {
+    display: block;
+    width: 100%;
 }
-.social {
-  width: 17%;
-  margin-left: 8px;
-}
-.centered h3 {
-  font-size: 39px;
-  font-style: italic;
-  margin-left: -4%;
-}
-}
-@media (max-width: 512px) {
   .mylink {
     margin-left: 30%;
     font-size: 11px;
@@ -972,35 +1122,77 @@ footer .p {
   margin-left: 19%;
 }
 .audios {
-  margin-left: -138%;
-  font-size: 48px;
+  margin-left: -157%;
+  font-size: 45px;
 }
 .memo {
-  margin-left: -75%;
+  margin-left: -91%;
+  font-size: 33px;
 }
 article {
   margin-left: -54px;
 }
 .mylink {
-  margin-left: 35%;
+  margin-left: 26%;
   font-size: 11px;
-  width: 84%;
+  width: 97%;
 }
 #mo h3 {
-  font-size: 27px;
+  font-size: 25px;
   margin-left: 14%;
+  width: 133%;
 }
 #mo p {
-  margin: -8px 0px -1px -130%;
-  font-size: 40px;
+  font-size: 37px;
 }
 .centered #ita {
-  margin-left: -77%;
+  margin-left: -92%;
   font-size: 31px;
 }
+.text-wrapper p {
+  font-size: 27px;
+  margin-left: 3%;
+  line-height: 1;
+}
+#li {
+  margin-left: 0%;
+  width: 92%;
+}
+.wor p {
+  margin-left: 17px;
+  font-size: 14px;
+  width: 96%;
+}
+#lin {
+  width: 31%;
+}
+.testemonies {
+  margin-left: 13%;
+}
+.rev {
+  margin-left: 9%;
+  margin-bottom: -13%;
+}
+.buttons p {
+  margin-left: 11%;
+}
+.google {
+  margin-left: 30%;
+}
+.lower p {
+  width: 102%;
+  font-size: 16px;
+  margin-left: 0;
+}
+.lower .call {
+  margin-right: 48px;
+}
+.back {
+  margin-left: 72%;
+}
 #aud {
-  font-size: 42px;
-  margin-left: -180%;
+  font-size: 40px;
+  margin-left: -207%;
 }
 #clea {
   margin-left: -131%;
@@ -1016,11 +1208,25 @@ article {
   margin-left: 23%;
 }
 #captu {
-  margin-left: -234%;
-  font-size: 28px;
+  margin-left: -267%;
+  font-size: 25px;
+}
+#lin {
+  background-color: #FFF;
+  color: black;
+  margin-left: 34%;
+  margin-bottom: 3%;
+}
+.lower {
+  width: 95%;
+  padding-left: 39px;
 }
 }
 @media (max-width: 480px) {
+  #ment {
+    margin-top: -138px;
+    margin-bottom: 66%;
+}
   #video h4 {
     width: 110%;
     margin: 0px;
@@ -1038,10 +1244,12 @@ article {
   margin-left: 50px;
 }
 #gold {
-  margin-left: 24%;
+    margin-left: 25%;
+    width: 49%;
 }
 #silver {
-  margin-left: 24%;
+  margin-left: 27%;
+  width: 46%;
 }
   .back {
     margin-left: 76%;
@@ -1068,47 +1276,80 @@ article {
   width: 20%;
 }
 #captu {
-  margin-left: -269%;
-  font-size: 26px;
+  margin-left: -313%;
+  font-size: 23px;
 }
 .audios {
-  margin-left: -170%;
-  font-size: 42px;
+  margin-left: -202%;
+  font-size: 37px;
 }
 .centered h3 {
   font-size: 23px;
 }
 #aud {
-  font-size: 36px;
-  margin-left: -211%;
+  font-size: 33px;
+  margin-left: -245%;
 }
 .centered #ita {
-  margin-left: -84%;
+  margin-left: -120%;
   font-size: 30px;
 }
+#clea {
+  margin-left: -183%;
+  font-size: 31px;
+}
 #audis {
-  margin-left: -197%;
-  font-size: 41px;
+  margin-left: -230%;
+  font-size: 34px;
 }
 .memo {
-  margin-left: -106%;
+  font-size: 32px;
+  margin-left: -116%;
 }
 #mo p {
-  margin: -10px 0px -1px -156%;
   font-size: 31px;
+}
+#mo a{
+    margin-left: 5%;
+    font-size: 9px;
+    width: 20%;
 }
 article {
   margin-left: -55px;
   font-size: 11px;
 }
 #mo h3 {
-  font-size: 25px;
-  margin-left: 14%;
+  font-size: 19px;
+  margin-left: -14%;
+}
+#mo article{
+  margin-left: 111px;
+  font-size: 11px;
+  width: 61%;
+}
+.item img {
+  width: 100%;
+  height: 40em;
+}
+.services-list div {
+  margin-left: 7px;
+  width: 209px;
+}
+#red {
+  width: 26%;
+}
+.logo img {
+  margin-left: 63px;
 }
 .mylink {
-  margin-left: 35%;
+  margin-left: 20%;
   font-size: 9px;
-  width: 90%;
+  width: 94%;
+}
+.rids a{
+    margin-left: 20%;
+    font-size: 9px;
+    width: 60%;
 }
 .gri {
   margin-left: 11%;
@@ -1126,9 +1367,16 @@ footer span {
   padding-left: 19px;
 }
 .text-wrapper p {
-  font-size: 26px;
-  margin-left: 1%;
+  font-size: 23px;
+  margin-left: 5%;
   text-align: left;
+}
+#lin {
+  width: 33%;
+  margin-left: 31%;
+}
+#re {
+  padding: 14px 17px;
 }
 .galleries {
   width: 92%;
@@ -1146,55 +1394,69 @@ footer span {
   margin-left: 13%;
 }
 footer .p {
-  margin-left: 11%;
+  margin-left: 6%;
 }
 .customers h2 {
   margin-left: 24%;
 }
 }
 @media (max-width: 420px) {
-  #mo p {
-    margin: -10px 0px -1px -171%;
-    font-size: 29px;
+  .logo img {
+    margin-left: 52px;
+}
+#mo p {
+  font-size: 29px;
 }
 .audios {
-  margin-left: -188%;
-  font-size: 40px;
+  margin-left: -237%;
+  font-size: 33px;
 }
 #audis {
-  margin-left: -223%;
-  font-size: 37px;
+  margin-left: -279%;
+  font-size: 34px;
 }
 .centered #ita {
-  margin-left: -99%;
-  font-size: 30px;
+  margin-left: -140%;
+  font-size: 28px;
 }
 .memo {
-  margin-left: -114%;
+  margin-left: -134%;
+  font-size: 28px;
 }
 .centered h3 {
   font-size: 20px;
 }
 #clea {
-  margin-left: -167%;
-  font-size: 32px;
+  margin-left: -228%;
+  font-size: 30px;
+}
+#red {
+  margin-top: 33px;
+  margin-left: 25%;
+  width: 26%;
+}
+.buttons p {
+  margin-left: 3%;
+}
+.back {
+  margin-left: 72%;
 }
 .mylink {
-  margin-left: 22%;
+  margin-left: 14%;
   font-size: 9px;
-  width: 99%;
+  width: 104%;
 }
 #aud {
-  font-size: 34px;
-  margin-left: -241%;
+  font-size: 30px;
+  margin-left: -263%;
 }
 #captu {
-  margin-left: -311%;
-  font-size: 26px;
+  margin-left: -338%;
+  font-size: 23px;
 }
 #mo h3 {
-  font-size: 20px;
-  margin-left: 14%;
+  font-size: 18px;
+  margin-left: 13%;
 }
 .services-list div {
   margin-left: 37px;
@@ -1242,7 +1504,7 @@ footer .p {
   width: 45%;
 }
 footer .p {
-  margin-left: 6%;
+  margin-left: 4%;
 }
 .customers h2 {
   margin-left: 36%;
@@ -1266,8 +1528,18 @@ footer .p {
   .customers h2 {
     margin-left: 30%;
 }
+#im6 {
+  /* margin-top: -307px; */
+  position: absolute;
+  top: 116%;
+  width: 31%;
+}
 .buttons p {
   margin-left: 0%;
+}
+#ment {
+  margin-top: -67px;
+  margin-bottom: 90%;
 }
 .google {
   margin-left: 30%;
@@ -1275,6 +1547,25 @@ footer .p {
 #re {
   margin-left: -27%;
   width: 378%;
+}
+#sdo {
+  margin-top: -157px;
+}
+#sdo {
+  margin-top: -157px;
+}
+#age4 {
+  margin-top: 17px;
+  height: 0;
+}
+#ia1 {
+  margin-top: -65px;
+}
+#rea {
+  margin-top: -107px;
+  position: absolute;
+  top: 123%;
+  width: 29%;
 }
 .lower {
   width: 95%;
@@ -1289,45 +1580,12 @@ footer .p {
 .back {
   margin-left: 68%;
 }
-.audios {
-  margin-left: -213%;
-  font-size: 37px;
-}
-#clea {
-  margin-left: -198%;
-  font-size: 32px;
-}
-#aud {
-  font-size: 26px;
-  margin-left: -265%;
-}
-#captu {
-  margin-left: -342%;
-  font-size: 24px;
-}
-.centered #ita {
-  margin-left: -124%;
-  font-size: 30px;
-}
-.centered h3 {
-  font-size: 18px;
-}
+
 article {
   margin-left: -55px;
   font-size: 9px;
 }
-#audis {
-  margin-left: -252%;
-  font-size: 25px;
-}
-.memo {
-  margin-left: -133%;
-  font-size: 31px;
-}
-#mo p {
-  margin: -10px 0px -1px -194%;
-  font-size: 29px;
-}.social {
+.social {
   width: 27%;
 }
 .text-wrapper p {
@@ -1353,17 +1611,11 @@ article {
   margin-left: -42px;
   font-size: 9px;
 }
-.centered #ita {
-  margin-left: -119%;
-  font-size: 30px;
+#im {
+  margin-top: -323px;
 }
-#mo p {
-  margin: -10px 0px -1px -205%;
-  font-size: 29px;
-}
-.memo {
-  margin-left: -136%;
-  font-size: 31px;
+#rea {
+  top: 127%;
 }
 .aboutus p {
   width: 108%;
@@ -1429,6 +1681,7 @@ footer .p {
   .testemonies {
     margin-left: -1%;
 }
+
 .rev {
   margin-left: -9%;
 }
@@ -1439,17 +1692,6 @@ footer .p {
 .social {
   margin-right: 0;
   margin-left: 65px;
-}
-.centered #ita {
-  margin-left: -167%;
-  font-size: 29px;
-}
-.audios {
-  margin-left: -278%;
-  font-size: 37px;
-}
-.centered h3 {
-  font-size: 17px;
 }
 .mylink {
   margin-left: 12%;
@@ -1477,14 +1719,50 @@ footer .p {
   margin-left: -2%;
   font-size: 13px;
 }
-.audios {
-  margin-left: -254%;
-  font-size: 37px;
+#mo p {
+  font-size: 23px;
+}
+#clea {
+  margin-left: -235%;
+  font-size: 27px;
+}
+.centered #ita {
+  margin-left: -152%;
+  font-size: 25px;
+}
+#audis {
+  margin-left: -295%;
+  font-size: 29px;
+}
+#mo h3 {
+  width: 150%;
+  font-size: 19px;
+  margin-left: 0%;
+}
+.memo {
+  margin-left: -175%;
+  font-size: 26px;
+}
+#aud {
+  font-size: 28px;
+  margin-left: -331%;
 }
 #captu {
-  margin-left: -360%;
-  font-size: 24px;
+  margin-left: -416%;
+  font-size: 20px;
 }
+.audios {
+  margin-left: -256%;
+  font-size: 32px;
+}
+#lin {
+  width: 36%;
+  font-size: 9px;
+}
+.back {
+  margin-left: 66%;
+}
+
 }
 @media (max-width: 350px) {
   #captu {
@@ -1509,6 +1787,34 @@ footer .p {
     margin-left: -240%;
     font-size: 32px;
 }
+#im6 {
+  /* margin-top: -307px; */
+  position: absolute;
+  top: 105%;
+  width: 31%;
+}
+#rea {
+  top: 111%;
+}
+#sdl {
+  margin-top: -152px;
+  position: absolute;
+  top: 197%;
+  width: 29%;
+  left: 34%;
+}
+
+#sdj img {
+  width: 104%;
+  height: 222px;
+  margin-bottom: 101%;
+}
+#sdm {
+  margin-top: -37px;
+}
+#sdo {
+  margin-top: -215px;
+}
   #audis {
     margin-left: -299%;
     font-size: 25px;
@@ -1518,7 +1824,6 @@ footer .p {
     font-size: 22px;
 }
 #mo p {
-  margin: -10px 0px -1px -242%;
   font-size: 29px;
 }
 #aud {
@@ -1527,6 +1832,9 @@ footer .p {
 }
 }
 @media (max-width: 320px) {
+  #red {
+    width: 33%;
+}
   .rev {
     margin-left: -9%;
     width: 110%;
@@ -1540,25 +1848,45 @@ footer .p {
   margin-left: 11%;
   font-size: 13px;
 }
+.centered #ita {
+  margin-left: -191%;
+  font-size: 24px;
+}
+.audios {
+  margin-left: -312%;
+  font-size: 28px;
+}#move {
+  margin-top: -57%;
+  /* display: none; */
+  margin-bottom: 101%;
+}
 #mo p {
-  margin: -10px 0px -1px -244%;
-  font-size: 29px;
+  margin: -10px 0px -1px -286%;
+  font-size: 22px;
 }
 .memo {
-  margin-left: -175%;
-  font-size: 31px;
+  margin-left: -210%;
+  font-size: 24px;
+}
+#captu {
+  margin-left: -469%;
+  font-size: 17px;
 }
 #audis {
-  margin-left: -307%;
-  font-size: 25px;
+  margin-left: -356%;
+  font-size: 23px;
 }
 #clea {
-  margin-left: -243%;
-  font-size: 32px;
+  margin-left: -283%;
+  font-size: 27px;
 }
 #aud {
-  font-size: 26px;
-  margin-left: -333%;
+  font-size: 24px;
+  margin-left: -373%;
+}
+.mylink {
+  margin-left: 12%;
+  width: 123%;
 }
 .buttons p {
   margin-left: 2%;
@@ -1567,5 +1895,10 @@ footer .p {
 .rev {
   margin-left: -2%;
   width: 101%;
+}
+#lin {
+  width: 42%;
+  font-size: 9px;
+  margin-left: 80px;
 }
 }

@@ -944,10 +944,8 @@ footer .p {
   margin-top: 126px;
 }
 
-.aboutus .vid {
-  width: 626px;
-  height: 416px;
-  margin-top: 29px;
+.item img{
+  width: 100%; height: 72em;
 }
 
 .text-wrapper #second {
