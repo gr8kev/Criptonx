@@ -24,7 +24,9 @@
 .text-wrapper p {
   margin-top: -4%;
 }
-
+.customers h2 {
+  color: white;
+}
 @media (min-width: 1330px) {
   .text-wrapper p {
     margin-top: -4%;
@@ -111,7 +113,6 @@
 }
 
 @media (max-width: 1330px) {
-
   .mas {
     padding-left: 4%;
     width: 95%;
@@ -145,7 +146,6 @@
 }
 
 @media (max-width: 1280px) {
-
   .services-list div h2 {
     font-size: 23px;
     font-weight: 500;
@@ -291,7 +291,6 @@
   .galleries {
     padding-left: 32px;
   }
-
 
   .gallery img {
     width: 340px;
@@ -444,7 +443,9 @@
   .text-wrapper p {
     margin-left: 20%;
   }
-
+  .gif {
+    margin-top: 9%;
+  }
   .back {
     margin-left: 84%;
   }
@@ -481,7 +482,9 @@
     width: 158%;
     margin-left: -11%;
   }
-
+  .image-container .image-box {
+    margin-bottom: 6%;
+  }
   .gri {
     margin-left: 2%;
     width: 85%;
@@ -540,7 +543,6 @@
     margin-left: 20%;
     margin-top: 0%;
   }
-
 }
 
 @media (max-width: 950px) {
@@ -610,7 +612,41 @@
   #vid .duct {
     width: 167%;
   }
-
+  .sentence-container {
+    display: block;
+  }
+  .image-container {
+    display: block;
+  }
+  .image-container {
+    margin-right: 0%;
+    margin-left: 32%;
+  }
+  .ele p {
+    white-space: normal;
+    margin-left: 1%;
+    width: 111%;
+  }
+  .sentence p {
+    text-align: left;
+    white-space: normal;
+    width: 74%;
+    margin-right: -10%;
+  }
+  .image-container p {
+    width: 213%;
+  }
+  .image-container p {
+    font-size: 3rem;
+    margin-left: -55%;
+  }
+  .center-text p {
+    width: 79%;
+    font-size: 2rem;
+  }
+  .elevate h2 {
+    font-size: 3rem;
+  }
   .audiow #duc {
     width: 146%;
     margin-left: 2%;
@@ -636,7 +672,6 @@
     padding: 23px 23px;
     height: 98%;
   }
-
 }
 
 @media (max-width: 884px) {
@@ -733,9 +768,12 @@
   }
 
   .logo img {
-    margin-left: 102px;
+    margin-left: 54px;
   }
-
+  #mo a {
+    width: 21%;
+    margin-left: 0;
+  }
   #close {
     display: block;
   }
@@ -791,7 +829,7 @@
 
   .services-list {
     display: grid;
-    grid-gap: 0px;
+    grid-gap: 0;
     grid-row-gap: 12px;
     margin-top: 50px;
     width: 91%;
@@ -860,6 +898,19 @@
     margin-left: 13px;
     height: 274px;
     margin-top: 0;
+  }
+  .tes p {
+    margin-left: -34%;
+  }
+  .cover h3 {
+    margin-left: -16%;
+  }
+  #bella {
+    height: 361%;
+    gap: 104px;
+  }
+  .buttons {
+    margin-top: 27%;
   }
 }
 
@@ -1029,14 +1080,18 @@
     margin-left: 46%;
     width: 304%;
   }
-
+  .customers h2 {
+    margin-left: 26%;
+    padding-top: 18px;
+  }
 }
-
 @media (max-width: 730px) {
   .audiow #duc {
     width: 144%;
   }
-
+  .center-text p {
+    margin-top: 35%;
+  }
   #video h4 {
     font-size: 17px;
   }
@@ -1089,7 +1144,9 @@
     font-size: 16px;
     margin-left: -49px;
   }
-
+  .gif {
+    margin-top: 16%;
+  }
   #video span {
     width: 238px;
     margin-left: -60px;
@@ -1425,7 +1482,7 @@ footer .p {
   #mo h3 {
     font-size: 25px;
     margin-left: 14%;
-    width: 133%;
+    width: 72%;
   }
 
   #mo p {
@@ -1500,7 +1557,7 @@ footer .p {
   }
 
   #audis {
-    margin-left: -172%;
+    margin-left: -200%;
     font-size: 42px;
   }
 
@@ -1516,7 +1573,7 @@ footer .p {
   }
 
   #lin {
-    background-color: #FFF;
+    background-color: #fff;
     color: black;
     margin-left: 34%;
     margin-bottom: 3%;
@@ -1526,9 +1583,17 @@ footer .p {
     width: 95%;
     padding-left: 39px;
   }
+  .buttons p {
+    margin-left: 14%;
+  }
 }
 
 @media (max-width: 500px) {
+  .customers h2 {
+    margin-left: 34%;
+    padding-top: 28px;
+    width: 33%;
+  }
   #counter {
     width: 50px;
     height: 50px;
@@ -1558,7 +1623,14 @@ footer .p {
     margin-top: -138px;
     margin-bottom: 66%;
   }
-
+  .lower p {
+    width: 89%;
+    font-size: 16px;
+    margin-left: 0;
+  }
+  footer span {
+    width: 80%;
+  }
   #video h4 {
     width: 110%;
     margin: 0px;
@@ -1626,7 +1698,7 @@ footer .p {
   }
 
   .audios {
-    margin-left: -202%;
+    margin-left: -183%;
     font-size: 37px;
   }
 
@@ -1676,7 +1748,7 @@ footer .p {
 
   #mo h3 {
     font-size: 19px;
-    margin-left: -14%;
+    /* margin-left: 0; */
   }
 
   #mo article {
@@ -1751,10 +1823,10 @@ footer .p {
   }
 
   .galleries {
-    width: 92%;
-    gap: 1px;
+    width: 81%;
+    gap: 25px;
     padding: 10px;
-    padding-left: 29px;
+    padding-left: 57px;
   }
 
   #lin {
@@ -1775,6 +1847,10 @@ footer .p {
 
   .customers h2 {
     margin-left: 24%;
+  }
+  .customers h2 {
+    /* margin-left: 24%; */
+    padding-top: 15%;
   }
 }
 
@@ -1832,7 +1908,6 @@ footer .p {
     margin-left: -228%;
     font-size: 30px;
   }
-
 
   .buttons p {
     margin-left: 3%;
@@ -1945,9 +2020,118 @@ footer .p {
     margin-left: 22px;
     height: 274px;
   }
-}
 
-@media (max-width:390px) {
+  #mo h3 {
+    font-size: 17px;
+    margin-left: 14%;
+  }
+  #aud {
+    font-size: 24px;
+    margin-left: -296%;
+  }
+  .centered #ita {
+    margin-left: -142%;
+    font-size: 27px;
+  }
+  .audios {
+    margin-left: -251%;
+    font-size: 24px;
+  }
+  #mo p {
+    font-size: 21px;
+  }
+  .centered #ita {
+    margin-left: -142%;
+    font-size: 27px;
+  }
+  .memo {
+    margin-left: -162%;
+    font-size: 24px;
+  }
+  #aud {
+    font-size: 22px;
+    margin-left: -296%;
+  }
+  #clea {
+    margin-left: -229%;
+    font-size: 21px;
+  }
+  #audis {
+    margin-left: -273%;
+    font-size: 26px;
+  }
+  #captu {
+    margin-left: -338%;
+    font-size: 23px;
+  }
+  .gallery img {
+    width: 83%;
+  }
+  .grid-item h2 {
+    margin-top: 108px;
+  }
+  .social {
+    margin-right: 20px;
+    margin-left: 0px;
+    gap: 5px;
+  }
+  .overlay {
+    bottom: 3%;
+  }
+  .overlay h1 {
+    font-size: 3.5vw;
+  }
+}
+@media (max-width: 414px) {
+  .gif {
+    margin-top: 24%;
+  }
+  .audios {
+    margin-left: -220%;
+    font-size: 24px;
+  }
+  #aud {
+    font-size: 20px;
+    margin-left: -266%;
+  }
+  .memo {
+    margin-left: -143%;
+    font-size: 24px;
+  }
+  #captu {
+    margin-left: -338%;
+    font-size: 21px;
+  }
+  .centered #ita {
+    margin-left: -127%;
+    font-size: 27px;
+  }
+  #audis {
+    margin-left: -232%;
+    font-size: 26px;
+  }
+  #clea {
+    margin-left: -193%;
+    font-size: 21px;
+  }
+}
+@media (max-width: 390px) {
+  .audios {
+    margin-left: -223%;
+    font-size: 22px;
+  }
+  .center-text p {
+    margin-top: 91%;
+  }
+  #vid .duct {
+    margin-left: -61px;
+    padding: 4px;
+  }
+  .rids p {
+    font-size: 14px;
+    margin-left: -27px;
+    width: 251px;
+  }
   .customers h2 {
     margin-left: 30%;
   }
@@ -1958,7 +2142,11 @@ footer .p {
     position: absolute;
     left: 38px;
   }
-
+  .lower p {
+    width: 89%;
+    font-size: 16px;
+    margin-left: 0;
+  }
   #im6 {
     /* margin-top: -307px; */
     position: absolute;
@@ -2048,7 +2236,10 @@ footer .p {
   #red {
     width: 27%;
   }
-
+  #captu {
+    margin-left: -356%;
+    font-size: 21px;
+  }
 }
 
 @media (max-width: 380px) {
@@ -2062,7 +2253,10 @@ footer .p {
     margin-left: -42px;
     font-size: 9px;
   }
-
+  .customers h2 {
+    width: 38%;
+    margin-left: 30%;
+  }
   #im {
     margin-top: -323px;
   }
@@ -2123,7 +2317,10 @@ footer .p {
   .lower .call {
     margin-right: 10px;
   }
-
+  #captu {
+    margin-left: -364%;
+    font-size: 19px;
+  }
   .lower p {
     margin: 0;
   }
@@ -2196,7 +2393,7 @@ footer .p {
   }
 
   .tes p {
-    margin-left: -2%;
+    /* margin-left: -2%; */
     font-size: 13px;
   }
 
@@ -2259,10 +2456,40 @@ footer .p {
     font-size: 19px;
     margin-left: -25%;
   }
-
+  .buttons {
+    margin-top: 34%;
+  }
+  .social {
+    margin-right: 20px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 375px) {
+  .buttons p {
+    margin-left: -7%;
+  }
+  .gif {
+    margin-top: 31%;
+  }
+  .social {
+    margin-right: 20px;
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 350px) {
+  .galleries {
+    width: 98%;
+    gap: 25px;
+    padding: 10px;
+    padding-left: 22px;
+  }
+  .galleryimg {
+    width: 267px;
+  }
+  .gallery img {
+    width: 73%;
+  }
   #captu {
     margin-left: -365%;
     font-size: 24px;
@@ -2282,9 +2509,49 @@ footer .p {
     margin-left: -275%;
     font-size: 25px;
   }
+  .text-wrapper p {
+    font-size: 15px;
+    margin-left: 5%;
+    text-align: left;
+  }
+  .customers h2 {
+    margin-left: 32%;
+    width: 41%;
+    padding-top: 25%;
+  }
+  .cover h3 {
+    margin-top: -295px;
+  }
 }
 
 @media (max-width: 340px) {
+  .rids h4 {
+    margin-left: 40px;
+  }
+  .gri {
+    margin-left: -6%;
+  }
+  #vid {
+    margin-left: 4%;
+  }
+  #vid .duct {
+    margin-left: 15px;
+    width: 194%;
+    padding: 9px;
+    font-size: 15px;
+  }
+  #vid #duc {
+    color: #fff;
+    width: 166%;
+    margin-left: 7%;
+  }
+  .grid-item h2 {
+    margin-left: -3px;
+    font-size: 1.7em;
+  }
+  footer .p {
+    width: 287px;
+  }
   #clea {
     margin-left: -240%;
     font-size: 32px;
@@ -2341,8 +2608,10 @@ footer .p {
     font-size: 26px;
     margin-left: -316%;
   }
+  #mo p {
+    font-size: 23px;
+  }
 }
-
 @media (max-width: 320px) {
   #red {
     width: 33%;
@@ -2381,10 +2650,9 @@ footer .p {
   }
 
   #mo p {
-    margin: -10px 0px -1px -286%;
+    margin: -10px 0px -1px 0%;
     font-size: 22px;
   }
-
   .memo {
     margin-left: -210%;
     font-size: 24px;
@@ -2401,10 +2669,9 @@ footer .p {
   }
 
   #clea {
-    margin-left: -283%;
-    font-size: 27px;
+    margin-left: -293%;
+    font-size: 22px;
   }
-
   #aud {
     font-size: 24px;
     margin-left: -373%;
@@ -2413,6 +2680,16 @@ footer .p {
   .mylink {
     margin-left: 12%;
     width: 123%;
+  }
+  #mo article {
+    margin-left: 110px;
+    font-size: 10px;
+    width: 58%;
+  }
+  article {
+    margin-left: -42px;
+    font-size: 9px;
+    width: 253%;
   }
 
   .buttons p {
@@ -2429,5 +2706,35 @@ footer .p {
     width: 42%;
     font-size: 9px;
     margin-left: 80px;
+  }
+  .mylink {
+    margin-left: 0%;
+    width: 126%;
+  }
+  #aud {
+    font-size: 19px;
+    margin-left: -392%;
+  }
+  #captu {
+    margin-left: -492%;
+    font-size: 14px;
+  }
+  .tes p {
+    width: 104%;
+    margin-left: 11%;
+    font-size: 13px;
+  }
+  .social {
+    margin-right: 20px;
+    margin-left: 0;
+  }
+}
+@media (max-width: 300px) {
+  .social {
+    margin-right: 50px;
+    margin-left: 10px;
+  }
+  .logo {
+    margin-right: 40px;
   }
 }

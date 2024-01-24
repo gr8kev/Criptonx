@@ -1,17 +1,25 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Page Title</title>
+    <title>criptonx | Best photography, Videography and Pro Audio Work Studio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="criptonx.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
     <script src="https://kit.fontawesome.com/91cf14b839.js" crossorigin="anonymous"></script>
     <link rel="icon" href="./images/cryp logo.png">
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("4isNyWHURNXyMMjzA");
+        })();
+    </script>
 
-    <script src="main.js"></script>
 </head>
 <link rel="stylesheet" href="./css_bootstrap.min.css" />
 <link rel="stylesheet" href="./media.query.css">
@@ -40,9 +48,9 @@
                         d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
                 </svg>
             </a>
-            <a href="" class="cursor-scale small">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube"
-                    viewBox="0 0 16 16">
+            <a href="https://www.youtube.com/@criptonxstudios455" class="cursor-scale small">
+                <svg xmlns="https://www.youtube.com/@criptonxstudios455" width="16" height="16" fill="currentColor"
+                    class="bi bi-youtube" viewBox="0 0 16 16">
                     <path
                         d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
                 </svg>
@@ -84,19 +92,23 @@
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="contact-right">
-                    <form name="send-email.php" method="POST">
+                    <form>
                         <input type="text" id="name" name="name" placeholder="Your Name" required>
-                        <input type="Email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <a href="info@criptonx.com"><button type="submit" class="btn btn2">Send</button></a>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" id="message" rows="6" placeholder="Your Message" required></textarea>
+                        <button class="btn btn2" onclick="sendMail()">Submit</button>
                     </form>
+
+
+
                     <span id="msg"></span>
 
-                    <h1>Email:</h1>
+                    <h1 style="color: white;">Email:</h1>
                     <h3><a href="mailto:info@criptonx.com">info@criptonx.com</a></h3>
-                    <h1>Phone-Number:</h1>
-                    <h3><a href="Tel:+234 806 003 3438">+234 806 003 3438</a></h3>
+                    <h1 style="color: white;">Phone-Number:</h1>
+                    <h3><a href="tel:+2348060033438">+234 806 003 3438</a></h3>
                 </div>
+
             </div>
         </div>
     </div>
@@ -117,11 +129,12 @@
                 </svg>
             </a>
             <div class="address">
-                <p>43b church-gate Street, Victoria Island, Lagos, Nigeria</p>
+                <p><i class="fa-solid fa-location-dot" style="    color: #9a0000;
+          margin-right: 2%;"></i>43b church-gate Street, Victoria Island, Lagos, Nigeria</p>
             </div>
             <ul>
                 <li>
-                    <a href="">
+                    <a href="https://wa.me/message/O4XZGG272W7TF1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-whatsapp" viewBox="0 0 16 16">
                             <path
@@ -130,7 +143,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="https://instagram.com/criptonxstudios?igshid=OGQ5ZDc2ODk2ZA==">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-instagram" viewBox="0 0 16 16">
                             <path
@@ -139,7 +152,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="https://www.facebook.com/Criptonxstudios?mibextid=D4KYlr">
 
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-facebook" viewBox="0 0 16 16">
@@ -149,14 +162,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                        <a href="" class="">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-youtube" viewBox="0 0 16 16">
-                                <path
-                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
-                            </svg>
-                        </a>
+                    <a href="https://www.youtube.com/@criptonxstudios455" class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-youtube" viewBox="0 0 16 16">
+                            <path
+                                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                        </svg>
                     </a>
                 </li>
             </ul>
@@ -164,7 +175,7 @@
         </div>
         <span></span>
 
-        <p class="p">@CriptonxStudiosCopyRight Reserved</p>
+        <p class="p">©2023 criptonxStudios. All Rights Reserved</p>
 
         <!-- <a href="#containe" class="back">Back To Top</a> -->
         <script src="./_jquery.min.js"></script>
@@ -211,6 +222,42 @@
 
         </script>
 
-</body>
 
-</html>
+        <!-- send-email -->
+
+
+        <script>
+
+            function sendMail() {
+                var params = {
+                    name: document.getElementById("name").value,
+                    email: document.getElementById("email").value,
+                    message: document.getElementById("message").value
+                };
+
+                console.log("Params:", params); // Log the params to see if they are correctly retrieved
+
+                const serviceID = "service_rsdizqu"; // Replace with your EmailJS service ID
+                const templateID = "template_3rs110c"; // Replace with your EmailJS template ID
+
+                console.log("Service ID:", serviceID); // Log the service ID
+                console.log("Template ID:", templateID); // Log the template ID
+
+                emailjs.send(serviceID, templateID, params)
+                    .then(response => {
+                        console.log("EmailJS Response:", response);
+                        document.getElementById("name").value = "";
+                        document.getElementById("email").value = "";
+                        document.getElementById("message").value = "";
+                        alert("Message sent successfully");
+                    })
+
+                    .catch(err => {
+                        console.error("EmailJS Error:", err); // Log any errors
+                        alert("Message could not be sent. Please try again later.");
+                    });
+            }
+
+        </script>
+</body>
+<html
