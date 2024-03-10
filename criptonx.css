@@ -398,7 +398,11 @@ body {
   /* Media query for iPhone 12 Pro */
   @media (max-width: 428px) {
     .overlay {
-      bottom: 10%; /* Adjust for iPhone 12 Pro */
+      bottom: 5%; /* Adjust for iPhone 12 Pro */
+    }
+    .overlay p {
+      font-size: 4vw;
+      margin-left: 2vw;
     }
   }
 
@@ -1831,120 +1835,30 @@ footer p {
   }
 }
 
-.gif {
-  display: flex;
-  align-items: center;
-  vertical-align: center;
-}
-.gif img {
-  width: 100%;
-  height: auto;
-}
-.image-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 10%;
-  max-width: 100%;
-  margin-top: 20%;
-  margin-right: 40%;
-}
-
-.image-container .image-box {
-  max-width: 50%;
-  text-align: center;
-}
-.image-container img {
-  max-width: 100%; /* Ensure images resize with their container */
-  height: auto;
-  border-radius: 2.5%;
-}
-.image-container p {
-  color: aliceblue;
-  font-family: "roboto", sans-serif;
-  font-size: 4rem;
-}
-.blog-body {
-  overflow-x: hidden;
-}
-.content-container {
-  max-width: 1000px;
+.blog-post-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0;
-}
-.elevate {
-  max-width: 100%;
-  margin-top: 10%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 20px;
+  font-family: "Roboto", "Helvetica";
   text-align: center;
-  padding: 20%;
-  background: url(images/Homebanner.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
-.elevate h2 {
-  color: aliceblue;
-  font-size: 8rem;
-  font-family: "roboto";
-  animation: slideIn 2s infinite;
+/* Style for individual blog post */
+.blog-post {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.ele p {
-  font-size: 1.5rem;
-  font-family: "roboto";
-  color: aliceblue;
-  max-width: 100%;
-  white-space: nowrap;
-  margin-left: 1%;
-  margin-top: 5%;
-}
-.sentence {
-  max-width: 100%;
-  margin-top: 1%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-}
-.sentence p {
-  font-size: 2rem;
-  font-family: "roboto";
-  color: aliceblue;
-  max-width: 100%;
-  white-space: nowrap;
-  margin-top: 5%;
-  text-align: center;
-  margin-right: 10%;
-}
-.sentence-container {
-  display: flex;
-  justify-content: space-between;
-  max-width: 100%;
-}
-.center-text {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* This ensures it's centered in the viewport height */
-}
-.center-text p {
+/* Style for image in blog post */
+.blog-post img {
   width: 100%;
-  text-align: center;
-  color: aliceblue;
-  font-size: 3rem;
-  font-family: "roboto", "Helvetica Neue";
-  padding: 2%;
-}
-.blog-vid {
-  width: 100%;
-  height: 100%;
-  padding: 5%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
